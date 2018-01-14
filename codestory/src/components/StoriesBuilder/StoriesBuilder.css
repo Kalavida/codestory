@@ -1,0 +1,29 @@
+
+.container{
+    max-width:1000px;
+    margin:1rem auto;
+}
+.initialize{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.initialize__input{
+    flex:1 1 30%;
+    margin:1rem;
+}
+
+.initialize__textarea{
+    flex: 1 1 50%; 
+    margin:1rem; 
+}
+
+.initialize__add-character-button{
+    border:none;
+    background:green;
+    color:white;
+}
+
+.initialize__add-character-button:focus{
+    outline:none;
+}
